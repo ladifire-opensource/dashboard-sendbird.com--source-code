@@ -1,0 +1,33 @@
+var map = {
+	"./announcement_sent_user_count.md": "ii4M",
+	"./auto_thumbnail.md": "sAEG",
+	"./auto_translation.md": "jjfR",
+	"./avg_file_storage.md": "SuOv",
+	"./bot_interface.md": "ETJ2",
+	"./image_moderation.md": "XfZS",
+	"./mau.md": "o3Xl",
+	"./message_search_index.md": "N1zF",
+	"./message_search_query.md": "nS86",
+	"./pc.md": "K6oM",
+	"./upload_traffic.md": "N4QS"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "jpHx";

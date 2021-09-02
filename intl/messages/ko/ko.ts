@@ -1,0 +1,17 @@
+export const ko = {
+  'label.assignToAgent': '상담원에게 배정',
+  'label.assignee': '담당자',
+  'label.cancel': '취소',
+  'label.closeTicket': '티켓 종료',
+  'label.created': '생성 일시',
+  'label.csat': '고객 만족도',
+  'label.customer': '고객',
+  'label.export': '내보내기',
+  'label.priority': '우선순위',
+  'label.reopenTicket': '다시 열기',
+  'label.save': '저장',
+  'label.settings': '설정',
+  'label.status': '상태',
+  'label.subject': '티켓 이름',
+  'label.team': '팀',
+};
